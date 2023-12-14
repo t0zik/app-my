@@ -1,0 +1,35 @@
+/* .conic-gradient
+{
+    background:conic-gradient(#144e5e 3.6deg,#ededed 0deg);
+}
+#circular_progress::before
+{
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+} */
+.progressInput 
+{
+    width: 50px;
+    margin-top: 30px;
+}
+
+.circle-background
+{
+    fill:none;
+    stroke:#ddd;
+}
+.circle-progress
+{
+    fill:none;
+    stroke:var(blue);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.bg_corners
+{
+    background-image: url('../../../public/images/about_us/bg2.png');
+}
